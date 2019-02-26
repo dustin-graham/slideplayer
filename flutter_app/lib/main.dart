@@ -34,6 +34,7 @@ class _MyApp extends StatelessWidget {
     return ScopedModel<FlutterSlidesModel>(
       model: loadedSlides,
       child: MaterialApp(
+        debugShowCheckedModeBanner: false,
         theme: ThemeData(
           fontFamily: 'GoogleSans',
         ),

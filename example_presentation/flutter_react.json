@@ -14,6 +14,830 @@
       "bg_color": "#FFFFFFff",
       "content": [
         {
+          "type": "image",
+          "file": "images/misc/flutter_logo.png",
+          "x": 250.0,
+          "y": 440.0,
+          "height": 200.0,
+          "width": 490.0,
+          "animation": {
+            "curve": "easeIn",
+            "opacity_start": 0.0,
+            "opacity_end": 1.0,
+            "duration_in_milliseconds": 1000
+          }
+        },
+        {
+          "type": "label",
+          "text": "Flutter For React Developers",
+          "font_size": 54.0,
+          "align": "center",
+          "font_color": "#1B364Fff",
+          "line_height": 0.9,
+          "letter_spacing": -1,
+          "x": 380.0,
+          "y": 0.0,
+          "height": 1080.0,
+          "width": 1150.0,
+          "animation": {
+            "curve": "easeInOut",
+            "opacity_start": 0.0,
+            "duration_in_milliseconds": 1250
+          }
+        },
+        {
+          "type": "image",
+          "file": "images/misc/react_logo.png",
+          "x": 1175.0,
+          "y": 440.0,
+          "height": 200.0,
+          "width": 490.0,
+          "animation": {
+            "curve": "easeInOut",
+            "opacity_start": 0.0,
+            "opacity_end": 1.0,
+            "duration_in_milliseconds": 1000
+          }
+        },
+        {
+          "type": "label",
+          "text": "\"Learn once, write in more places than you thought.\"",
+          "font_size": 60.0,
+          "align": "center",
+          "font_color": "#1B364Fff",
+          "line_height": 0.9,
+          "letter_spacing": -1,
+          "x": 0.0,
+          "y": 0.0,
+          "height": 1920,
+          "width": 1920.0,
+          "animation": {
+            "curve": "easeInOut",
+            "opacity_start": 0.0,
+            "duration_in_milliseconds": 1250
+          }
+        }
+      ]
+    },
+    {
+      "bg_color": "#FFFFFFff",
+      "content": [
+        {
+          "type": "label",
+          "text": "About Me",
+          "font_size": 84.0,
+          "align": "start",
+          "font_color": "#1B364Fff",
+          "line_height": 0.9,
+          "letter_spacing": -1,
+          "x": 60.0,
+          "y": 180.0,
+          "height": 100.0,
+          "width": 400.0,
+          "animation": {
+            "curve": "easeInOut",
+            "opacity_start": 0.0,
+            "duration_in_milliseconds": 1250
+          }
+        },
+        {
+          "type": "image",
+          "file": "images/misc/family_photo.jpeg",
+          "x": 900.0,
+          "y": 140.0,
+          "height": 800.0,
+          "width": 800.0,
+          "animation": {
+            "curve": "easeInOut",
+            "opacity_start": 0.0,
+            "opacity_end": 1.0,
+            "duration_in_milliseconds": 1000
+          }
+        },
+        {
+          "type": "label",
+          "text": "- Husband, Father of 4\n- Mobile App Dev ~10 years\n    - Native: Android & iOS\n    - Xplat: Xamarin, Unity3D, \n       React Native, Flutter\n - Ron Turley Associates (RTA)\n - GitHub: dustin-graham",
+          "font_size": 60.0,
+          "font_color": "#1B364Fff",
+          "line_height": 1.3,
+          "letter_spacing": -1,
+          "x": 40.0,
+          "y": 240.0,
+          "height": 800,
+          "width": 800.0,
+          "animation": {
+            "curve": "easeInOut",
+            "opacity_start": 0.0,
+            "duration_in_milliseconds": 1250
+          }
+        }
+      ]
+    },
+    {
+      "bg_color": "#FFFFFFff",
+      "content": [
+        {
+          "type": "image",
+          "x": 321.0,
+          "y": 86.0,
+          "height": 908.0,
+          "width": 544.0,
+          "file": "images/misc/android_ambig.webp",
+          "animation": {
+            "curve": "easeInOut",
+            "delay_in_milliseconds": 5000,
+            "duration_in_milliseconds": 1000,
+            "offset_x": 367.0
+          }
+        },
+        {
+          "type": "image",
+          "x": 1007.0,
+          "y": 86.0,
+          "height": 908.0,
+          "width": 544.0,
+          "file": "images/misc/ios_ambig.webp",
+          "animation": {
+            "curve": "easeInOut",
+            "delay_in_milliseconds": 5000,
+            "duration_in_milliseconds": 1000,
+            "offset_x": -319.0
+          }
+        },
+        {
+          "type": "image",
+          "x": 688.0,
+          "y": 86.0,
+          "height": 908.0,
+          "width": 544.0,
+          "file": "images/misc/ambiguous-device-ui.webp",
+          "animation": {
+            "curve": "easeInOut",
+            "delay_in_milliseconds": 5750,
+            "duration_in_milliseconds": 750,
+            "opacity_start": 0.0,
+            "opacity_end": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "bg_color": "#FFFFFFff",
+      "content": [
+        {
+          "type": "label",
+          "text": "Why should Flutter matter to React devs?",
+          "font_size": 84.0,
+          "font_color": "#1B364Fff",
+          "line_height": 0.9,
+          "letter_spacing": -1,
+          "x": 60.0,
+          "y": 140.0,
+          "height": 100.0,
+          "width": 1550.0,
+          "animation": {
+            "curve": "easeInOut",
+            "opacity_start": 0.0,
+            "duration_in_milliseconds": 1250
+          }
+        },
+        {
+          "type": "label",
+          "text": "1. Certain advantages for native applications over React Native\n2. React developers already have the knowledge, skills, and mindset \n    to be productive with Flutter on day one\n3. Emerging platform with new opportunities\n",
+          "font_size": 60.0,
+          "font_color": "#1B364Fff",
+          "line_height": 1.3,
+          "letter_spacing": -1,
+          "x": 80.0,
+          "y": 260.0,
+          "height": 800,
+          "width": 1800.0,
+          "animation": {
+            "curve": "easeInOut",
+            "opacity_start": 0.0,
+            "duration_in_milliseconds": 1250
+          }
+        }
+      ]
+    },
+    {
+      "bg_color": "#FFFFFFff",
+      "content": [
+        {
+          "type": "label",
+          "text": "Flutter vs React Native?",
+          "font_size": 84.0,
+          "font_color": "#1B364Fff",
+          "line_height": 0.9,
+          "letter_spacing": -1,
+          "align": "center",
+          "x": 60.0,
+          "y": 140.0,
+          "height": 100.0,
+          "width": 900.0,
+          "animation": {
+            "curve": "easeIn",
+            "opacity_start": 0.0,
+            "duration_in_milliseconds": 1250
+          }
+        },
+        {
+          "type": "label",
+          "text": "Flutter",
+          "font_size": 60.0,
+          "font_color": "#1B364Fff",
+          "line_height": 1.3,
+          "letter_spacing": -1,
+          "x": 60.0,
+          "y": 260.0,
+          "height": 100,
+          "width": 200.0,
+          "animation": {
+            "curve": "easeIn",
+            "opacity_start": 0.0,
+            "duration_in_milliseconds": 1250
+          }
+        },
+        {
+          "type": "label",
+          "text": "A portable UI Framework\n  - All UI is custom drawing\n  - Engine written in C++\n  - Framework written in Dart\n  - Compiled to native instructions\nSingle codebase\nInspired by React",
+          "font_size": 40.0,
+          "font_color": "#1B364Fff",
+          "line_height": 1.3,
+          "letter_spacing": -1,
+          "x": 60.0,
+          "y": 180.0,
+          "height": 800,
+          "width": 600.0,
+          "animation": {
+            "curve": "easeIn",
+            "opacity_start": 0.0,
+            "duration_in_milliseconds": 1250
+          }
+        },
+        {
+          "type": "label",
+          "text": "React Native",
+          "font_size": 60.0,
+          "font_color": "#1B364Fff",
+          "line_height": 1.3,
+          "letter_spacing": -1,
+          "x": 860.0,
+          "y": 260.0,
+          "height": 100,
+          "width": 400.0,
+          "animation": {
+            "curve": "easeIn",
+            "opacity_start": 0.0,
+            "duration_in_milliseconds": 1250
+          }
+        },
+        {
+          "type": "label",
+          "text": "Mobile cross-platform framework\n  - Utilizes native UI Frameworks for drawing\n  - Framework written in JavaScript\n  - Communicates with native via bridge\nSingle codebase\nBased on React",
+          "font_size": 40.0,
+          "font_color": "#1B364Fff",
+          "line_height": 1.3,
+          "letter_spacing": -1,
+          "x": 860.0,
+          "y": 195.0,
+          "height": 700,
+          "width": 810.0,
+          "animation": {
+            "curve": "easeIn",
+            "opacity_start": 0.0,
+            "duration_in_milliseconds": 1250
+          }
+        }
+      ]
+    },
+    {
+      "bg_color": "#FFFFFFff",
+      "content": [
+        {
+          "type": "label",
+          "text": "Flutter vs React Native?",
+          "font_size": 84.0,
+          "font_color": "#1B364Fff",
+          "line_height": 0.9,
+          "letter_spacing": -1,
+          "align": "center",
+          "x": 60.0,
+          "y": 140.0,
+          "height": 100.0,
+          "width": 900.0
+        },
+        {
+          "type": "label",
+          "text": "Flutter",
+          "font_size": 60.0,
+          "font_color": "#1B364Fff",
+          "line_height": 1.3,
+          "letter_spacing": -1,
+          "x": 60.0,
+          "y": 260.0,
+          "height": 100,
+          "width": 200.0
+        },
+        {
+          "type": "image",
+          "file": "images/misc/autonomous_car_1.jpg",
+          "x": 80.0,
+          "y": 300.0,
+          "height": 700,
+          "width": 790.0,
+          "animation": {
+            "curve": "easeInOut",
+            "opacity_start": 0.0,
+            "duration_in_milliseconds": 1250
+          }
+        },
+        {
+          "type": "label",
+          "text": "React Native",
+          "font_size": 60.0,
+          "font_color": "#1B364Fff",
+          "line_height": 1.3,
+          "letter_spacing": -1,
+          "x": 860.0,
+          "y": 260.0,
+          "height": 100,
+          "width": 400.0
+        },
+        {
+          "type": "image",
+          "x": 900.0,
+          "y": 300.0,
+          "height": 700,
+          "width": 790.0,
+          "file": "images/misc/robot_car.jpg",
+          "animation": {
+            "curve": "easeInOut",
+            "opacity_start": 0.0,
+            "duration_in_milliseconds": 1250
+          }
+        }
+      ]
+    },
+    {
+      "bg_color": "#FFFFFFff",
+      "content": [
+        {
+          "type": "label",
+          "text": "What about Dart?",
+          "font_size": 84.0,
+          "font_color": "#1B364Fff",
+          "line_height": 0.9,
+          "letter_spacing": -1,
+          "x": 60.0,
+          "y": 140.0,
+          "height": 100.0,
+          "width": 670.0,
+          "animation": {
+            "curve": "easeInOut",
+            "opacity_start": 0.0,
+            "duration_in_milliseconds": 1250
+          }
+        },
+        {
+          "type": "label",
+          "text": "A nice blend of lots of good things\n    - Strongly typed but with powerful dynamic features\n    - Object oriented but with nice functional features\n    - Single threaded but with an easy Isolates API\n    - Futures + Async/Await + Streams\n    - Feature-rich standard library\n    - Familiar and comfortable to anyone who's written Java, C#, or JavaScript\n\nHigh-performance garbage collector\n    - Tight integration with the Flutter framework\n\nDual Compilation Modes: JIT & AOT",
+          "font_size": 50.0,
+          "font_color": "#1B364Fff",
+          "line_height": 0.9,
+          "letter_spacing": -1,
+          "x": 40.0,
+          "y": 200.0,
+          "height": 800,
+          "width": 1700.0,
+          "animation": {
+            "curve": "easeInOut",
+            "opacity_start": 0.0,
+            "duration_in_milliseconds": 1250
+          }
+        }
+      ]
+    },
+    {
+      "bg_color": "#FFFFFFff",
+      "content": [
+        {
+          "type": "label",
+          "text": "A Quick Tour of Dart - Type Safety",
+          "font_size": 84.0,
+          "font_color": "#1B364Fff",
+          "line_height": 0.9,
+          "letter_spacing": -1,
+          "x": 60.0,
+          "y": 140.0,
+          "height": 100.0,
+          "width": 1270.0,
+          "animation": {
+            "curve": "easeInOut",
+            "opacity_start": 0.0,
+            "duration_in_milliseconds": 1250
+          }
+        },
+        {
+          "type": "label",
+          "text": "Dart is type safe with both static and  runtime checks. Includes type inference",
+          "font_size": 50.0,
+          "font_color": "#1B364Fff",
+          "line_height": 0.9,
+          "letter_spacing": -1,
+          "x": 60.0,
+          "y": 260.0,
+          "height": 120.0,
+          "width": 1270.0,
+          "animation": {
+            "curve": "easeInOut",
+            "opacity_start": 0.0,
+            "duration_in_milliseconds": 1250
+          }
+        },
+        {
+          "type": "image",
+          "file": "images/misc/type_safe.png",
+          "x": 60.0,
+          "y": 200.0,
+          "height": 800,
+          "width": 1920.0,
+          "animation": {
+            "curve": "easeInOut",
+            "opacity_start": 0.0,
+            "duration_in_milliseconds": 1250
+          }
+        }
+      ]
+    },
+    {
+      "bg_color": "#FFFFFFff",
+      "content": [
+        {
+          "type": "label",
+          "text": "A Quick Tour of Dart - booleans",
+          "font_size": 84.0,
+          "font_color": "#1B364Fff",
+          "line_height": 0.9,
+          "letter_spacing": -1,
+          "x": 60.0,
+          "y": 140.0,
+          "height": 100.0,
+          "width": 1200.0,
+          "animation": {
+            "curve": "easeInOut",
+            "opacity_start": 0.0,
+            "duration_in_milliseconds": 1250
+          }
+        },
+        {
+          "type": "label",
+          "text": "Only boolean value 'true' is treated as true",
+          "font_size": 50.0,
+          "font_color": "#1B364Fff",
+          "line_height": 0.9,
+          "letter_spacing": -1,
+          "x": 60.0,
+          "y": 260.0,
+          "height": 120.0,
+          "width": 940.0,
+          "animation": {
+            "curve": "easeInOut",
+            "opacity_start": 0.0,
+            "duration_in_milliseconds": 1250
+          }
+        },
+        {
+          "type": "image",
+          "file": "images/misc/bools.png",
+          "x": 60.0,
+          "y": 220.0,
+          "height": 800,
+          "width": 1920.0,
+          "animation": {
+            "curve": "easeInOut",
+            "opacity_start": 0.0,
+            "duration_in_milliseconds": 1250
+          }
+        }
+      ]
+    },
+    {
+      "bg_color": "#FFFFFFff",
+      "content": [
+        {
+          "type": "label",
+          "text": "A Quick Tour of Dart - functions",
+          "font_size": 84.0,
+          "font_color": "#1B364Fff",
+          "line_height": 0.9,
+          "letter_spacing": -1,
+          "x": 60.0,
+          "y": 140.0,
+          "height": 100.0,
+          "width": 1200.0,
+          "animation": {
+            "curve": "easeInOut",
+            "opacity_start": 0.0,
+            "duration_in_milliseconds": 1250
+          }
+        },
+        {
+          "type": "label",
+          "text": "Pretty much the same",
+          "font_size": 50.0,
+          "font_color": "#1B364Fff",
+          "line_height": 0.9,
+          "letter_spacing": -1,
+          "x": 60.0,
+          "y": 260.0,
+          "height": 120.0,
+          "width": 500.0,
+          "animation": {
+            "curve": "easeInOut",
+            "opacity_start": 0.0,
+            "duration_in_milliseconds": 1250
+          }
+        },
+        {
+          "type": "image",
+          "file": "images/misc/functions.png",
+          "x": 60.0,
+          "y": 220.0,
+          "height": 800,
+          "width": 1920.0,
+          "animation": {
+            "curve": "easeInOut",
+            "opacity_start": 0.0,
+            "duration_in_milliseconds": 1250
+          }
+        }
+      ]
+    },
+    {
+      "bg_color": "#FFFFFFff",
+      "content": [
+        {
+          "type": "label",
+          "text": "A Quick Tour of Dart - asynchronous",
+          "font_size": 84.0,
+          "font_color": "#1B364Fff",
+          "line_height": 0.9,
+          "letter_spacing": -1,
+          "x": 60.0,
+          "y": 140.0,
+          "height": 100.0,
+          "width": 1350.0,
+          "animation": {
+            "curve": "easeInOut",
+            "opacity_start": 0.0,
+            "duration_in_milliseconds": 1250
+          }
+        },
+        {
+          "type": "label",
+          "text": "Futures are like Promises",
+          "font_size": 50.0,
+          "font_color": "#1B364Fff",
+          "line_height": 0.9,
+          "letter_spacing": -1,
+          "x": 60.0,
+          "y": 260.0,
+          "height": 120.0,
+          "width": 550.0,
+          "animation": {
+            "curve": "easeInOut",
+            "opacity_start": 0.0,
+            "duration_in_milliseconds": 1250
+          }
+        },
+        {
+          "type": "image",
+          "file": "images/misc/futures.png",
+          "x": 60.0,
+          "y": 260.0,
+          "height": 800,
+          "width": 1920.0,
+          "animation": {
+            "curve": "easeInOut",
+            "opacity_start": 0.0,
+            "duration_in_milliseconds": 1250
+          }
+        }
+      ]
+    },
+    {
+      "bg_color": "#FFFFFFff",
+      "content": [
+        {
+          "type": "label",
+          "text": "A Quick Tour of Dart - async/await",
+          "font_size": 84.0,
+          "font_color": "#1B364Fff",
+          "line_height": 0.9,
+          "letter_spacing": -1,
+          "x": 60.0,
+          "y": 140.0,
+          "height": 100.0,
+          "width": 1300.0,
+          "animation": {
+            "curve": "easeInOut",
+            "opacity_start": 0.0,
+            "duration_in_milliseconds": 1250
+          }
+        },
+        {
+          "type": "label",
+          "text": "Pretty much the same",
+          "font_size": 50.0,
+          "font_color": "#1B364Fff",
+          "line_height": 0.9,
+          "letter_spacing": -1,
+          "x": 60.0,
+          "y": 260.0,
+          "height": 120.0,
+          "width": 500.0,
+          "animation": {
+            "curve": "easeInOut",
+            "opacity_start": 0.0,
+            "duration_in_milliseconds": 1250
+          }
+        },
+        {
+          "type": "image",
+          "file": "images/misc/async_await.png",
+          "x": 60.0,
+          "y": 200.0,
+          "height": 800,
+          "width": 1920.0,
+          "animation": {
+            "curve": "easeInOut",
+            "opacity_start": 0.0,
+            "duration_in_milliseconds": 1250
+          }
+        }
+      ]
+    },
+    {
+      "bg_color": "#FFFFFFff",
+      "content": [
+        {
+          "type": "label",
+          "x": 0.0,
+          "y": 0.0,
+          "height": 1080.0,
+          "width": 1920.0,
+          "text": "Demo",
+          "align": "@replace/jumbo_slide_align",
+          "text_align": "@replace/jumbo_slide_text_align",
+          "font_size": "@replace/jumbo_slide_font_size",
+          "font_color": "@replace/jumbo_slide_font_color",
+          "line_height": "@replace/jumbo_slide_line_height",
+          "letter_spacing": "@replace/jumbo_slide_letter_spacing"
+        }
+      ]
+    },
+    {
+      "bg_color": "#FFFFFFff",
+      "content": [
+        {
+          "type": "label",
+          "text": "Flutter Core Advantages",
+          "font_size": 84.0,
+          "font_color": "#1B364Fff",
+          "line_height": 0.9,
+          "letter_spacing": -1,
+          "x": 60.0,
+          "y": 140.0,
+          "height": 100.0,
+          "width": 930.0,
+          "animation": {
+            "curve": "easeInOut",
+            "opacity_start": 0.0,
+            "duration_in_milliseconds": 1250
+          }
+        },
+        {
+          "type": "label",
+          "text": "Complete control over UI rendering\n    - Optimizations\n    - No-compromise API design\n    - Improved test coverage\n    - Consistency\n\n Holistic tooling\n    - Dart Language, build system, debug server & package manager\n    - Flutter Framework & IDE plugins\n    - Material Design integration\n\n Quick dev iteration speed and simplicity & great runtime Performance",
+          "font_size": 50.0,
+          "font_color": "#1B364Fff",
+          "line_height": 0.9,
+          "letter_spacing": -1,
+          "x": 60.0,
+          "y": 200.0,
+          "height": 800,
+          "width": 1550.0,
+          "animation": {
+            "curve": "easeInOut",
+            "opacity_start": 0.0,
+            "duration_in_milliseconds": 1250
+          }
+        }
+      ]
+    },
+    {
+      "bg_color": "#FFFFFFff",
+      "content": [
+        {
+          "type": "label",
+          "text": "Flutter Core Disadvantages",
+          "font_size": 84.0,
+          "font_color": "#1B364Fff",
+          "line_height": 0.9,
+          "letter_spacing": -1,
+          "x": 60.0,
+          "y": 140.0,
+          "height": 100.0,
+          "width": 1050.0,
+          "animation": {
+            "curve": "easeInOut",
+            "opacity_start": 0.0,
+            "duration_in_milliseconds": 1250
+          }
+        },
+        {
+          "type": "label",
+          "text": "Complete responsibility over UI rendering\n\nFar less ubiquitous tech stack",
+          "font_size": 50.0,
+          "font_color": "#1B364Fff",
+          "line_height": 0.9,
+          "letter_spacing": -1,
+          "x": 60.0,
+          "y": 0.0,
+          "height": 800,
+          "width": 950.0,
+          "animation": {
+            "curve": "easeInOut",
+            "opacity_start": 0.0,
+            "duration_in_milliseconds": 1250
+          }
+        }
+      ]
+    },
+    {
+      "bg_color": "#FFFFFFff",
+      "content": [
+        {
+          "type": "label",
+          "text": "Where is Flutter going?",
+          "font_size": 84.0,
+          "font_color": "#1B364Fff",
+          "line_height": 0.9,
+          "letter_spacing": -1,
+          "x": 60.0,
+          "y": 140.0,
+          "height": 100.0,
+          "width": 900.0,
+          "animation": {
+            "curve": "easeInOut",
+            "opacity_start": 0.0,
+            "duration_in_milliseconds": 1250
+          }
+        },
+        {
+          "type": "label",
+          "text": "Multi-platform, not cross-platform\n    - Android\n    - iOS\n    - Web: Project Hummingbird\n    - Desktop: MacOS, Windows, Linux",
+          "font_size": 50.0,
+          "font_color": "#1B364Fff",
+          "line_height": 0.9,
+          "letter_spacing": -1,
+          "x": 60.0,
+          "y": 50.0,
+          "height": 800,
+          "width": 850.0,
+          "animation": {
+            "curve": "easeInOut",
+            "opacity_start": 0.0,
+            "duration_in_milliseconds": 1250
+          }
+        }
+      ]
+    },
+    {
+      "bg_color": "#FFFFFFff",
+      "content": [
+        {
+          "type": "image",
+          "x": 320.0,
+          "y": 68.0,
+          "height": 981.0,
+          "width": 1283.0,
+          "file": "images/misc/desktop.webp"
+        },
+        {
+          "type": "desktop_embedding",
+          "x": 373.0,
+          "y": 120.0,
+          "height": 663.0,
+          "width": 1178.0
+        }
+      ]
+    },
+    {
+      "bg_color": "#FFFFFFff",
+      "content": [
+        {
           "type": "main_title_slide",
           "x": 0.0,
           "y": 0.0,
@@ -40,108 +864,6 @@
             "ようこそ",
             "환영",
             "chào mừng"
-           ]
-        }
-      ]
-    },
-    {
-      "bg_color": "#FFFFFFff",
-      "content": [
-        {
-          "type": "team_photos",
-          "row_count": 5,
-          "column_count": 3,
-          "shuffle_initial": true,
-          "seed": 300,
-          "min_shown_duration_milliseconds": 2500,
-          "extra_shown_duration_max_milliseconds": 6000,
-          "blink_duration_milliseconds": 250,
-          "x": 0.0,
-          "y": 0.0,
-          "height": 1080.0,
-          "width": 1920.0,
-          "colors": [
-            "0xFF1B364F",
-            "0xFF0175C2",
-            "0xFF13B9FD",
-            "0xFFBFE6F3"
-          ],
-          "photo_files": [
-            "images/team_portraits/flutter-team-04.webp",
-            "images/team_portraits/flutter-team-53.webp",
-            "images/team_portraits/flutter-team-45.webp",
-            "images/team_portraits/flutter-team-12.webp",
-            "images/team_portraits/flutter-team-69.webp",
-            "images/team_portraits/flutter-team-28.webp",
-            "images/team_portraits/flutter-team-08.webp",
-            "images/team_portraits/flutter-team-49.webp",
-            "images/team_portraits/flutter-team-65.webp",
-            "images/team_portraits/flutter-team-32.webp",
-            "images/team_portraits/flutter-team-24.webp",
-            "images/team_portraits/flutter-team-73.webp",
-            "images/team_portraits/flutter-team-72.webp",
-            "images/team_portraits/flutter-team-25.webp",
-            "images/team_portraits/flutter-team-33.webp",
-            "images/team_portraits/flutter-team-64.webp",
-            "images/team_portraits/flutter-team-48.webp",
-            "images/team_portraits/flutter-team-09.webp",
-            "images/team_portraits/flutter-team-29.webp",
-            "images/team_portraits/flutter-team-68.webp",
-            "images/team_portraits/flutter-team-13.webp",
-            "images/team_portraits/flutter-team-44.webp",
-            "images/team_portraits/flutter-team-52.webp",
-            "images/team_portraits/flutter-team-05.webp",
-            "images/team_portraits/flutter-team-59.webp",
-            "images/team_portraits/flutter-team-18.webp",
-            "images/team_portraits/flutter-team-63.webp",
-            "images/team_portraits/flutter-team-34.webp",
-            "images/team_portraits/flutter-team-22.webp",
-            "images/team_portraits/flutter-team-75.webp",
-            "images/team_portraits/flutter-team-02.webp",
-            "images/team_portraits/flutter-team-55.webp",
-            "images/team_portraits/flutter-team-43.webp",
-            "images/team_portraits/flutter-team-14.webp",
-            "images/team_portraits/flutter-team-38.webp",
-            "images/team_portraits/flutter-team-39.webp",
-            "images/team_portraits/flutter-team-15.webp",
-            "images/team_portraits/flutter-team-42.webp",
-            "images/team_portraits/flutter-team-54.webp",
-            "images/team_portraits/flutter-team-03.webp",
-            "images/team_portraits/flutter-team-74.webp",
-            "images/team_portraits/flutter-team-23.webp",
-            "images/team_portraits/flutter-team-35.webp",
-            "images/team_portraits/flutter-team-62.webp",
-            "images/team_portraits/flutter-team-19.webp",
-            "images/team_portraits/flutter-team-58.webp",
-            "images/team_portraits/flutter-team-20.webp",
-            "images/team_portraits/flutter-team-36.webp",
-            "images/team_portraits/flutter-team-61.webp",
-            "images/team_portraits/flutter-team-16.webp",
-            "images/team_portraits/flutter-team-41.webp",
-            "images/team_portraits/flutter-team-57.webp",
-            "images/team_portraits/flutter-team-01.webp",
-            "images/team_portraits/flutter-team-56.webp",
-            "images/team_portraits/flutter-team-40.webp",
-            "images/team_portraits/flutter-team-17.webp",
-            "images/team_portraits/flutter-team-60.webp",
-            "images/team_portraits/flutter-team-37.webp",
-            "images/team_portraits/flutter-team-21.webp",
-            "images/team_portraits/flutter-team-10.webp",
-            "images/team_portraits/flutter-team-47.webp",
-            "images/team_portraits/flutter-team-51.webp",
-            "images/team_portraits/flutter-team-06.webp",
-            "images/team_portraits/flutter-team-71.webp",
-            "images/team_portraits/flutter-team-26.webp",
-            "images/team_portraits/flutter-team-30.webp",
-            "images/team_portraits/flutter-team-67.webp",
-            "images/team_portraits/flutter-team-66.webp",
-            "images/team_portraits/flutter-team-31.webp",
-            "images/team_portraits/flutter-team-27.webp",
-            "images/team_portraits/flutter-team-70.webp",
-            "images/team_portraits/flutter-team-07.webp",
-            "images/team_portraits/flutter-team-50.webp",
-            "images/team_portraits/flutter-team-46.webp",
-            "images/team_portraits/flutter-team-11.webp"
           ]
         }
       ]
@@ -225,49 +947,49 @@
             "subtitle": "No compromises for\nyour designers",
             "inner_bg_color": "0x00000000",
             "background_positions": {
-                "collapsed": {
-                  "top": 0.0,
-                  "left": 0.0
-                },
-                "beautiful": {
-                  "top": 0.0,
-                  "left": 0.0
-                },
-                "fast": {
-                  "top": -1080.0,
-                  "left": 0.0
-                },
-                "productive": {
-                  "top": 0.0,
-                  "left": -1920.0
-                },
-                "open": {
-                  "top": -1080.0,
-                  "left": -1920.0
-                }
+              "collapsed": {
+                "top": 0.0,
+                "left": 0.0
               },
-              "title_positions": {
-                "collapsed": {
-                  "top": 200.0,
-                  "left": 250.0
-                },
-                "beautiful": {
-                  "top": 100.0,
-                  "left": -100.0
-                },
-                "fast": {
-                  "top": -880.0,
-                  "left": 250.0
-                },
-                "productive": {
-                  "top": 200.0,
-                  "left": -1670.0
-                },
-                "open": {
-                  "top": -880.0,
-                  "left": -1670.0
-                }
+              "beautiful": {
+                "top": 0.0,
+                "left": 0.0
               },
+              "fast": {
+                "top": -1080.0,
+                "left": 0.0
+              },
+              "productive": {
+                "top": 0.0,
+                "left": -1920.0
+              },
+              "open": {
+                "top": -1080.0,
+                "left": -1920.0
+              }
+            },
+            "title_positions": {
+              "collapsed": {
+                "top": 200.0,
+                "left": 250.0
+              },
+              "beautiful": {
+                "top": 100.0,
+                "left": -100.0
+              },
+              "fast": {
+                "top": -880.0,
+                "left": 250.0
+              },
+              "productive": {
+                "top": 200.0,
+                "left": -1670.0
+              },
+              "open": {
+                "top": -880.0,
+                "left": -1670.0
+              }
+            },
             "shell_image_offset": {
               "top": 0.0,
               "left": 0.0
@@ -295,49 +1017,49 @@
             "subtitle": "Take the speed limiter\noff your app",
             "inner_bg_color": "0x00000000",
             "background_positions": {
-                "collapsed": {
-                  "top": 540.0,
-                  "left": 0.0
-                },
-                "beautiful": {
-                  "top": 540.0,
-                  "left": 0.0
-                },
-                "fast": {
-                  "top": -540.0,
-                  "left": 0.0
-                },
-                "productive": {
-                  "top": 540.0,
-                  "left": -1920.0
-                },
-                "open": {
-                  "top": -540.0,
-                  "left": -1920.0
-                }
+              "collapsed": {
+                "top": 540.0,
+                "left": 0.0
               },
-              "title_positions": {
-                "collapsed": {
-                  "top": 750.0,
-                  "left": 350.0
-                },
-                "beautiful": {
-                  "top": 750.0,
-                  "left": 350.0
-                },
-                "fast": {
-                  "top": -442.0,
-                  "left": -195.0
-                },
-                "productive": {
-                  "top": 750.0,
-                  "left": -1520.0
-                },
-                "open": {
-                  "top": -350.0,
-                  "left": -1520.0
-                }
+              "beautiful": {
+                "top": 540.0,
+                "left": 0.0
               },
+              "fast": {
+                "top": -540.0,
+                "left": 0.0
+              },
+              "productive": {
+                "top": 540.0,
+                "left": -1920.0
+              },
+              "open": {
+                "top": -540.0,
+                "left": -1920.0
+              }
+            },
+            "title_positions": {
+              "collapsed": {
+                "top": 750.0,
+                "left": 350.0
+              },
+              "beautiful": {
+                "top": 750.0,
+                "left": 350.0
+              },
+              "fast": {
+                "top": -442.0,
+                "left": -195.0
+              },
+              "productive": {
+                "top": 750.0,
+                "left": -1520.0
+              },
+              "open": {
+                "top": -350.0,
+                "left": -1520.0
+              }
+            },
             "shell_image_offset": {
               "top": 580.0,
               "left": 0.0
@@ -365,49 +1087,49 @@
             "title": "Productive",
             "subtitle": "Develop while your\napp is running",
             "background_positions": {
-                "collapsed": {
-                  "top": 0.0,
-                  "left": 960.0
-                },
-                "beautiful": {
-                  "top": 0.0,
-                  "left": 960.0
-                },
-                "fast": {
-                  "top": -1080.0,
-                  "left": 960.0
-                },
-                "productive": {
-                  "top": 0.0,
-                  "left": -960.0
-                },
-                "open": {
-                  "top": -1080.0,
-                  "left": -960.0
-                }
+              "collapsed": {
+                "top": 0.0,
+                "left": 960.0
               },
-              "title_positions": {
-                "collapsed": {
-                  "top": 190.0,
-                  "left": 1205.0
-                },
-                "beautiful": {
-                  "top": 190.0,
-                  "left": 1210.0
-                },
-                "fast": {
-                  "top": -890.0,
-                  "left": 1210.0
-                },
-                "productive": {
-                  "top": 116.0,
-                  "left": -1050.0
-                },
-                "open": {
-                  "top": -890.0,
-                  "left": -730.0
-                }
+              "beautiful": {
+                "top": 0.0,
+                "left": 960.0
               },
+              "fast": {
+                "top": -1080.0,
+                "left": 960.0
+              },
+              "productive": {
+                "top": 0.0,
+                "left": -960.0
+              },
+              "open": {
+                "top": -1080.0,
+                "left": -960.0
+              }
+            },
+            "title_positions": {
+              "collapsed": {
+                "top": 190.0,
+                "left": 1205.0
+              },
+              "beautiful": {
+                "top": 190.0,
+                "left": 1210.0
+              },
+              "fast": {
+                "top": -890.0,
+                "left": 1210.0
+              },
+              "productive": {
+                "top": 116.0,
+                "left": -1050.0
+              },
+              "open": {
+                "top": -890.0,
+                "left": -730.0
+              }
+            },
             "shell_image_offset": {
               "top": 0.0,
               "left": 1250.0
@@ -426,14 +1148,14 @@
             }
           },
           "productive2": {
-              "innards_bg_color": "0xFF4444444",
-              "innards_bg": {
+            "innards_bg_color": "0xFF4444444",
+            "innards_bg": {
               "top": 100.0,
               "left": 222.0,
               "width": 920.0,
               "height": 560.0
-              }
-            },
+            }
+          },
           "open": {
             "background_color": "0xFFBFE6F3",
             "title_color": "0xFF1B364F",
@@ -446,54 +1168,54 @@
             "shell_fit": "cover",
             "inner_bg_color": "0x00000000",
             "background_positions": {
-                "collapsed": {
-                  "top": 540.0,
-                  "left": 960.0
-                },
-                "beautiful": {
-                  "top": 540.0,
-                  "left": 960.0
-                },
-                "fast": {
-                  "top": -540.0,
-                  "left": 960.0
-                },
-                "productive": {
-                  "top": 540.0,
-                  "left": -960.0
-                },
-                "open": {
-                  "top": -540.0,
-                  "left": -960.0
-                }
+              "collapsed": {
+                "top": 540.0,
+                "left": 960.0
               },
-              "title_positions": {
-                "collapsed": {
-                  "top": 750.0,
-                  "left": 1320.0
-                },
-                "beautiful": {
-                  "top": 730.0,
-                  "left": 1320.0
-                },
-                "fast": {
-                  "top": -360.0,
-                  "left": 1320.0
-                },
-                "productive": {
-                  "top": 730.0,
-                  "left": -600.0
-                },
-                "open": {
-                  "top": -448.0,
-                  "left": -1165.0
-                }
+              "beautiful": {
+                "top": 540.0,
+                "left": 960.0
               },
-              "shell_image_offset": {
+              "fast": {
+                "top": -540.0,
+                "left": 960.0
+              },
+              "productive": {
+                "top": 540.0,
+                "left": -960.0
+              },
+              "open": {
+                "top": -540.0,
+                "left": -960.0
+              }
+            },
+            "title_positions": {
+              "collapsed": {
+                "top": 750.0,
+                "left": 1320.0
+              },
+              "beautiful": {
+                "top": 730.0,
+                "left": 1320.0
+              },
+              "fast": {
+                "top": -360.0,
+                "left": 1320.0
+              },
+              "productive": {
+                "top": 730.0,
+                "left": -600.0
+              },
+              "open": {
+                "top": -448.0,
+                "left": -1165.0
+              }
+            },
+            "shell_image_offset": {
               "top": 540.0,
               "left": 1250.0
-              },
-              "shell_image": {
+            },
+            "shell_image": {
               "top": 93.0,
               "left": 800.0,
               "width": 1217.0,
@@ -527,7 +1249,7 @@
     {
       "bg_color": "#FFFFFFFF",
       "content": [
-       {
+        {
           "type": "image",
           "x": 0.0,
           "y": 0.0,
@@ -558,13 +1280,12 @@
           "width": 960,
           "x": 0,
           "y": 0,
-          "animation":
-          {
-              "scale_align": "topLeft",
-              "curve": "elasticOut",
-              "scale_start": 0.0,
-              "scale_end": 1.0,
-              "duration_in_milliseconds": 1250
+          "animation": {
+            "scale_align": "topLeft",
+            "curve": "elasticOut",
+            "scale_start": 0.0,
+            "scale_end": 1.0,
+            "duration_in_milliseconds": 1250
           }
         },
         {
@@ -579,11 +1300,10 @@
           "y": 161.0,
           "height": 106.0,
           "width": 691.0,
-          "animation":
-          {
-              "curve": "easeInOut",
-              "opacity_start": 0.0,
-              "duration_in_milliseconds": 1250
+          "animation": {
+            "curve": "easeInOut",
+            "opacity_start": 0.0,
+            "duration_in_milliseconds": 1250
           }
         },
         {
@@ -598,11 +1318,10 @@
           "y": 299.0,
           "height": 81.0,
           "width": 493.0,
-          "animation":
-          {
-              "curve": "easeInOut",
-              "opacity_start": 0.0,
-              "duration_in_milliseconds": 1250
+          "animation": {
+            "curve": "easeInOut",
+            "opacity_start": 0.0,
+            "duration_in_milliseconds": 1250
           }
         },
         {
@@ -613,13 +1332,13 @@
           "x": 960,
           "y": 0,
           "animation": {
-              "scale_align": "topRight",
-              "curve": "elasticOut",
-              "scale_start": 0.0,
-              "scale_end": 1.0,
-              "delay_in_milliseconds": 500,
-              "duration_in_milliseconds": 1250
-            }
+            "scale_align": "topRight",
+            "curve": "elasticOut",
+            "scale_start": 0.0,
+            "scale_end": 1.0,
+            "delay_in_milliseconds": 500,
+            "duration_in_milliseconds": 1250
+          }
         },
         {
           "type": "label",
@@ -633,12 +1352,11 @@
           "y": 131.0,
           "height": 106.0,
           "width": 691.0,
-          "animation":
-          {
-              "curve": "easeInOut",
-              "opacity_start": 0.0,
-              "delay_in_milliseconds": 500,
-              "duration_in_milliseconds": 1250
+          "animation": {
+            "curve": "easeInOut",
+            "opacity_start": 0.0,
+            "delay_in_milliseconds": 500,
+            "duration_in_milliseconds": 1250
           }
         },
         {
@@ -654,12 +1372,11 @@
           "y": 273.0,
           "height": 137.0,
           "width": 691.0,
-          "animation":
-          {
-              "curve": "easeInOut",
-              "opacity_start": 0.0,
-              "delay_in_milliseconds": 500,
-              "duration_in_milliseconds": 1250
+          "animation": {
+            "curve": "easeInOut",
+            "opacity_start": 0.0,
+            "delay_in_milliseconds": 500,
+            "duration_in_milliseconds": 1250
           }
         },
         {
@@ -669,16 +1386,15 @@
           "width": 960,
           "x": 0,
           "y": 540,
-          "animation":
-            {
-              "scale_align": "bottomLeft",
-              "curve": "elasticOut",
-              "scale_start": 0.0,
-              "scale_end": 1.0,
-              "curve": "elasticOut",
-              "delay_in_milliseconds": 1000,
-              "duration_in_milliseconds": 1250
-            }
+          "animation": {
+            "scale_align": "bottomLeft",
+            "curve": "elasticOut",
+            "scale_start": 0.0,
+            "scale_end": 1.0,
+            "curve": "elasticOut",
+            "delay_in_milliseconds": 1000,
+            "duration_in_milliseconds": 1250
+          }
         },
         {
           "type": "label",
@@ -692,12 +1408,11 @@
           "y": 664.0,
           "height": 106.0,
           "width": 691.0,
-          "animation":
-          {
-              "curve": "easeInOut",
-              "opacity_start": 0.0,
-              "delay_in_milliseconds": 1000,
-              "duration_in_milliseconds": 1250
+          "animation": {
+            "curve": "easeInOut",
+            "opacity_start": 0.0,
+            "delay_in_milliseconds": 1000,
+            "duration_in_milliseconds": 1250
           }
         },
         {
@@ -713,12 +1428,11 @@
           "y": 806.0,
           "height": 150.0,
           "width": 493.0,
-          "animation":
-          {
-              "curve": "easeInOut",
-              "opacity_start": 0.0,
-              "delay_in_milliseconds": 1000,
-              "duration_in_milliseconds": 1250
+          "animation": {
+            "curve": "easeInOut",
+            "opacity_start": 0.0,
+            "delay_in_milliseconds": 1000,
+            "duration_in_milliseconds": 1250
           }
         },
         {
@@ -729,13 +1443,13 @@
           "x": 960,
           "y": 540,
           "animation": {
-              "scale_align": "bottomRight",
-              "curve": "elasticOut",
-              "scale_start": 0.0,
-              "scale_end": 1.0,
-              "duration_in_milliseconds": 1250,
-              "delay_in_milliseconds": 1500
-            }
+            "scale_align": "bottomRight",
+            "curve": "elasticOut",
+            "scale_start": 0.0,
+            "scale_end": 1.0,
+            "duration_in_milliseconds": 1250,
+            "delay_in_milliseconds": 1500
+          }
         },
         {
           "type": "label",
@@ -749,12 +1463,11 @@
           "y": 666.0,
           "height": 106.0,
           "width": 691.0,
-          "animation":
-          {
-              "curve": "easeInOut",
-              "opacity_start": 0.0,
-              "delay_in_milliseconds": 1500,
-              "duration_in_milliseconds": 1250
+          "animation": {
+            "curve": "easeInOut",
+            "opacity_start": 0.0,
+            "delay_in_milliseconds": 1500,
+            "duration_in_milliseconds": 1250
           }
         },
         {
@@ -771,12 +1484,11 @@
           "height": 146.0,
           "width": 550.0,
           "delay_in_milliseconds": 1500,
-          "animation":
-          {
-              "curve": "easeInOut",
-              "opacity_start": 0.0,
-              "delay_in_milliseconds": 1500,
-              "duration_in_milliseconds": 1250
+          "animation": {
+            "curve": "easeInOut",
+            "opacity_start": 0.0,
+            "delay_in_milliseconds": 1500,
+            "duration_in_milliseconds": 1250
           }
         }
       ]
@@ -1040,61 +1752,61 @@
     {
       "bg_color": "#FFFFFFff",
       "content": [
-          {
-              "type": "label",
-              "text": "Material",
-              "font_size": 130.0,
-              "font_color": "#1B364Fff",
-              "letter_spacing": -2.18,
-              "text_align": "center",
-              "x": 444.0,
-              "y": 458.0,
-              "height": 120.0,
-              "width": 570.0,
-              "animation": {
-                  "curve": "easeOut",
-                  "delay_in_milliseconds": 0,
-                  "duration_in_milliseconds": 2000,
-                  "offset_x": -80.0,
-                  "offset_y": 0.0
-              }
-          },
-          {
-              "type": "label",
-              "text": "Flutter",
-              "font_size": 130.0,
-              "font_color": "#1B364Fff",
-              "letter_spacing": -2.18,
-              "text_align": "center",
-              "x": 897.0,
-              "y": 458.0,
-              "height": 120.0,
-              "width": 570.0,
-              "animation": {
-                  "curve": "easeOut",
-                  "delay_in_milliseconds": 0,
-                  "duration_in_milliseconds": 2000,
-                  "offset_x": 90.0,
-                  "offset_y": 0.0
-              }
-          },
-          {
-              "type": "image",
-              "x": 934.0,
-              "y": 498.0,
-              "fit": "contain",
-              "height": 97.0,
-              "width": 97.0,
-              "file": "images/misc/heart.webp",
-              "animation": {
-                  "curve": "elasticOut",
-                  "scale_start": 0.0,
-                  "scale_end": 1.25,
-                  "duration_in_milliseconds": 4000
-              }
+        {
+          "type": "label",
+          "text": "Material",
+          "font_size": 130.0,
+          "font_color": "#1B364Fff",
+          "letter_spacing": -2.18,
+          "text_align": "center",
+          "x": 444.0,
+          "y": 458.0,
+          "height": 120.0,
+          "width": 570.0,
+          "animation": {
+            "curve": "easeOut",
+            "delay_in_milliseconds": 0,
+            "duration_in_milliseconds": 2000,
+            "offset_x": -80.0,
+            "offset_y": 0.0
           }
+        },
+        {
+          "type": "label",
+          "text": "Flutter",
+          "font_size": 130.0,
+          "font_color": "#1B364Fff",
+          "letter_spacing": -2.18,
+          "text_align": "center",
+          "x": 897.0,
+          "y": 458.0,
+          "height": 120.0,
+          "width": 570.0,
+          "animation": {
+            "curve": "easeOut",
+            "delay_in_milliseconds": 0,
+            "duration_in_milliseconds": 2000,
+            "offset_x": 90.0,
+            "offset_y": 0.0
+          }
+        },
+        {
+          "type": "image",
+          "x": 934.0,
+          "y": 498.0,
+          "fit": "contain",
+          "height": 97.0,
+          "width": 97.0,
+          "file": "images/misc/heart.webp",
+          "animation": {
+            "curve": "elasticOut",
+            "scale_start": 0.0,
+            "scale_end": 1.25,
+            "duration_in_milliseconds": 4000
+          }
+        }
       ]
-  },
+    },
     {
       "bg_color": "#FFFFFFff",
       "content": [
@@ -1208,11 +1920,11 @@
           "height": 200.0,
           "width": 890.0,
           "animation": {
-              "curve": "easeInOut",
-              "opacity_start": 0.0,
-              "opacity_end": 1.0,
-              "duration_in_milliseconds": 1000
-            }
+            "curve": "easeInOut",
+            "opacity_start": 0.0,
+            "opacity_end": 1.0,
+            "duration_in_milliseconds": 1000
+          }
         },
         {
           "asset": "assets/flare/Robot.nma",
@@ -1223,12 +1935,12 @@
           "height": 1080.0,
           "width": 1150.0,
           "animation": {
-              "curve": "easeInOut",
-              "delay_in_milliseconds": 0,
-              "opacity_start": 0.0,
-              "opacity_end": 1.0,
-              "duration_in_milliseconds": 1000
-            }
+            "curve": "easeInOut",
+            "delay_in_milliseconds": 0,
+            "opacity_start": 0.0,
+            "opacity_end": 1.0,
+            "duration_in_milliseconds": 1000
+          }
         }
       ]
     },
@@ -1257,11 +1969,11 @@
           "height": 122.0,
           "width": 1760.0,
           "animation": {
-              "delay_in_milliseconds": 1100,
-              "opacity_start": 0.0,
-              "opacity_end": 1.0,
-              "curve": "easeInOut",
-              "duration_in_milliseconds": 600
+            "delay_in_milliseconds": 1100,
+            "opacity_start": 0.0,
+            "opacity_end": 1.0,
+            "curve": "easeInOut",
+            "duration_in_milliseconds": 600
           }
         },
         {
@@ -1279,11 +1991,11 @@
           "width": 1760.0,
           "delay_in_milliseconds": 1100,
           "animation": {
-              "delay_in_milliseconds": 1100,
-              "opacity_start": 0.0,
-              "opacity_end": 1.0,
-              "curve": "easeInOut",
-              "duration_in_milliseconds": 600
+            "delay_in_milliseconds": 1100,
+            "opacity_start": 0.0,
+            "opacity_end": 1.0,
+            "curve": "easeInOut",
+            "duration_in_milliseconds": 600
           }
         }
       ]
@@ -1485,11 +2197,11 @@
           "fit": "contain",
           "file": "images/firebase_screen/build better apps.webp",
           "animation": {
-              "type": "fade_in",
-              "curve": "easeInOut",
-              "opacity_start": 0.0,
-              "delay_in_milliseconds": 1200,
-              "duration_in_milliseconds": 1000
+            "type": "fade_in",
+            "curve": "easeInOut",
+            "opacity_start": 0.0,
+            "delay_in_milliseconds": 1200,
+            "duration_in_milliseconds": 1000
           }
         },
         {
@@ -1500,11 +2212,11 @@
           "height": 795.0,
           "file": "images/firebase_screen/improve app quality.webp",
           "animation": {
-              "type": "fade_in",
-              "curve": "easeInOut",
-              "opacity_start": 0.0,
-              "delay_in_milliseconds": 1300,
-              "duration_in_milliseconds": 1000
+            "type": "fade_in",
+            "curve": "easeInOut",
+            "opacity_start": 0.0,
+            "delay_in_milliseconds": 1300,
+            "duration_in_milliseconds": 1000
           }
         },
         {
@@ -1515,11 +2227,11 @@
           "height": 795.0,
           "file": "images/firebase_screen/grow your app.webp",
           "animation": {
-              "type": "fade_in",
-              "curve": "easeInOut",
-              "opacity_start": 0.0,
-              "delay_in_milliseconds": 1400,
-              "duration_in_milliseconds": 1000
+            "type": "fade_in",
+            "curve": "easeInOut",
+            "opacity_start": 0.0,
+            "delay_in_milliseconds": 1400,
+            "duration_in_milliseconds": 1000
           }
         }
       ]
@@ -1602,7 +2314,7 @@
     {
       "bg_color": "#FFFFFFFF",
       "content": [
-       {
+        {
           "type": "image",
           "x": 0.0,
           "y": 0.0,

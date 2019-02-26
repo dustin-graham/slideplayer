@@ -23,7 +23,7 @@ class DesktopEmbeddingContent extends StatelessWidget {
             right: 0.0,
             height: 80.0 * normHeightMulti,
             child: Material(
-              color: Colors.blue,
+              color: Colors.red,
               elevation: 4.0,
               child: Padding(
                 padding:
@@ -31,7 +31,7 @@ class DesktopEmbeddingContent extends StatelessWidget {
                 child: Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    'Flutter Desktop Embedding',
+                    'Flutter For React Devs',
                     style: Theme.of(context).textTheme.title.copyWith(
                         color: Colors.white, fontSize: 36.0 * fontMulti),
                   ),
@@ -65,7 +65,7 @@ class DesktopEmbeddingContent extends StatelessWidget {
             ),
           ),
           Positioned(
-            bottom: 40.0 * normHeightMulti,
+            bottom: 40.0 * normHeightMulti * 4,
             right: 40.0 * normWidthMulti,
             child: Container(
               width: fabSize,
@@ -73,7 +73,7 @@ class DesktopEmbeddingContent extends StatelessWidget {
               child: Material(
                 elevation: 4.0,
                 borderRadius: BorderRadius.circular(fabSize / 2.0),
-                color: Colors.blue,
+                color: Colors.red,
                 child: InkWell(
                   onTap: () {
                     _counter.value += 1;
@@ -82,6 +82,32 @@ class DesktopEmbeddingContent extends StatelessWidget {
                   child: Center(
                     child: Icon(
                       Icons.add,
+                      size: 30.0 * normWidthMulti,
+                      color: Colors.white,
+                    ),
+                  ),
+                ),
+              ),
+            ),
+          ),
+          Positioned(
+            bottom: 40.0 * normHeightMulti,
+            right: 40.0 * normWidthMulti,
+            child: Container(
+              width: fabSize,
+              height: fabSize,
+              child: Material(
+                elevation: 4.0,
+                borderRadius: BorderRadius.circular(fabSize / 2.0),
+                color: Colors.red,
+                child: InkWell(
+                  onTap: () {
+                    _counter.value -= 1;
+                  },
+                  borderRadius: BorderRadius.circular(fabSize / 2.0),
+                  child: Center(
+                    child: Icon(
+                      Icons.close,
                       size: 30.0 * normWidthMulti,
                       color: Colors.white,
                     ),
